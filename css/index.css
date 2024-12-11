@@ -10,7 +10,7 @@ body {
 
 .subbox {
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
   text-align: center;
   background-color: #24353f;
   color: lightyellow;
@@ -19,4 +19,15 @@ body {
 a {
   text-decoration: none;
   color: yellow;
+}
+
+@media screen and (min-width: 600px) {
+  .subbox {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 990px) {
+  .subbox {
+    width: 50%;
+  }
 }
