@@ -108,7 +108,7 @@ function signinAddData() {
 
       localStorage.setItem("userNameContainer", userList[i].name);
 
-      window.location = "/home.html";
+      window.location = "https://mohamed-hosny1.github.io/login/home.html";
     } else {
       document.getElementById("loginMsg").innerHTML =
         '<span class="p-2 text-danger">incorrect email or password</span>';
